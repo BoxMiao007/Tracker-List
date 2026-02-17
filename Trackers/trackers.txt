@@ -85,6 +85,7 @@ http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.lintk.me:2710/announce
 http://tracker.lyretain.site:2710/announce
+http://tracker.memelords.xyz:80/announce
 http://tracker.moxing.party:6969/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.netmap.top:6969/announce
@@ -169,6 +170,7 @@ https://tracker.guguan.dpdns.org:443/announce
 https://tracker.guguan.us.kg:443/announce
 https://tracker.home.kmzs123.cn:4443/announce
 https://tracker.iochimari.moe:443/announce
+https://tracker.iperson.xyz:443/announce
 https://tracker.itscraftsoftware.my.id:443/announce
 https://tracker.jdx3.org:443/announce
 https://tracker.kuroy.me:443/announce
@@ -182,9 +184,12 @@ https://tracker.manager.v6.navy:443/announce
 https://tracker.maya.no.eu.org:443/announce
 https://tracker.moeblog.cn:443/announce
 https://tracker.moeking.me:443/announce
+https://tracker.novy.vip:443/announce
 https://tracker.opendev.cloud:443/announce
 https://tracker.pmman.tech:443/announce
+https://tracker.puvvadi.net:443/announce
 https://tracker.qingwa.pro:443/announce
+https://tracker.qingwapt.org:443/announce
 https://tracker.soshifanclub.com:443/announce
 https://tracker.tamersunion.org:443/announce
 https://tracker.uraniumhexafluori.de:443/announce
@@ -233,6 +238,7 @@ udp://ismaarino.com:1234/announce
 udp://laestrygonian.ooguy.com:9001/announce
 udp://leet-tracker.moe:1337/announce
 udp://martin-gebhardt.eu:25/announce
+udp://navegador.click:6969/announce
 udp://node01.torrentonline.cc:42069/announce
 udp://node01.trackerstatus.live:42069/announce
 udp://node02.torrentonline.cc:42069/announce
@@ -263,6 +269,7 @@ udp://t.overflow.biz:6969/announce
 udp://thouvenin.cloud:6969/announce
 udp://torrent.i.ng:6969/announce
 udp://torrentclub.online:54123/announce
+udp://torrentvpn.club:6990/announce
 udp://tr3.ysagin.top:2715/announce
 udp://tr4ck3r.duckdns.org:6969/announce
 udp://trackarr.org:6969/announce
@@ -296,6 +303,7 @@ udp://tracker.healthcareindia.store:1337/announce
 udp://tracker.hifimarket.in:2710/announce
 udp://tracker.hifitechindia.com:6969/announce
 udp://tracker.home.kmzs123.cn:17272/announce
+udp://tracker.huadongblower.xyz:8080/announce
 udp://tracker.iperson.xyz:6969/announce
 udp://tracker.ixuexi.click:6969/announce
 udp://tracker.kmzs123.cn:17272/announce
@@ -309,6 +317,7 @@ udp://tracker.playground.ru:6969/announce
 udp://tracker.plx.im:6969/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.rescuecrew7.com:1337/announce
+udp://tracker.riverarmy.xyz:6969/announce
 udp://tracker.sharebro.in:6969/announce
 udp://tracker.skillindia.site:6969/announce
 udp://tracker.skynetcloud.site:6969/announce
@@ -344,6 +353,7 @@ udp://tracker3.t-1.org:6969/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://trl-zhuqiy.dgj055.icu:6969/announce
 udp://ttk2.nbaonlineservice.com:6969/announce
+udp://uabits.today:6990/announce
 udp://udp.tracker.projectk.org:23333/announce
 udp://utracker.ghostchu-services.top:6969/announce
 udp://v74853.hosted-by-vdsina.com:6969/announce
