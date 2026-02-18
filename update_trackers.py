@@ -20,7 +20,7 @@ init(autoreset=True)
 # GitHub 配置
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # 必须通过环境变量提供，无默认值
 REPO_OWNER = os.getenv("REPO_OWNER", "BoxMiao007")
-REPO_NAME = os.getenv("REPO_NAME", "tracker-list")
+REPO_NAME = os.getenv("REPO_NAME", "Tracker-List")
 TRACKERS_FILE_PATH = "trackers.txt"
 README_FILE_PATH = "README.md"
 
@@ -31,8 +31,8 @@ URLS = [
     "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt",
     "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt",
     "https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/AT_best.txt",
-    "https://raw.githubusercontent.com/BoxMiao007/tracker-list/main/trackers.txt",
-    "https://raw.githubusercontent.com/BoxMiao007/tracker-list/main/trackers_best.txt",
+    "https://raw.githubusercontent.com/BoxMiao007/Tracker-List/main/trackers.txt",
+    "https://raw.githubusercontent.com/BoxMiao007/Tracker-List/main/trackers_best.txt",
     "http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt",
 ]
 
