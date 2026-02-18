@@ -2,9 +2,7 @@
 [![GitHub](https://img.shields.io/github/license/BoxMiao007/Library?style=flat-square&color=blue&logo=github)](https://raw.githubusercontent.com/BoxMiao007/Library/main/LICENSE)
 
 # Library
-**personal use**
-
-测试
+**个人使用**
 
 ## Trackers
 
