@@ -1,4 +1,4 @@
-http://sukebei.tracker.wf:8888/announce
-http://tracker.opentrackr.org:1337/announce
-https://tracker1.520.jp/announce
-udp://tracker.opentrackr.org:1337/announce
+http://www.wareztorrent.com:80/announce
+http://www.wareztorrent.com/announce
+http://tracker.memelords.xyz:80/announce
+https://tr.nyacat.pw:443/announce
