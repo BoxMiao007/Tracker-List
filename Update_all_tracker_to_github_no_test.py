@@ -20,7 +20,7 @@ init(autoreset=True)
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # 必须通过环境变量提供，无默认值
 REPO_OWNER = os.getenv("REPO_OWNER", "BoxMiao007")
 REPO_NAME = os.getenv("REPO_NAME", "Library")
-TRACKERS_FILE_PATH = "Trackers/trackers.txt"
+TRACKERS_FILE_PATH = "trackers.txt"
 README_FILE_PATH = "README.md"
 
 # 数据源 URLs
