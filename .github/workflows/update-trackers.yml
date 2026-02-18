@@ -1,0 +1,45 @@
+name: Update Trackers
+
+on:
+  schedule:
+    # 每天 UTC 0:00 运行 (北京时间 8:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # 支持手动触发
+
+jobs:
+  update-trackers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 需要写权限来提交文件
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests colorama tabulate
+      
+      - name: Run tracker update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 目标仓库配置 (默认为本仓库，可通过 secrets 覆盖)
+          REPO_OWNER: ${{ secrets.REPO_OWNER || 'BoxMiao007' }}
+          REPO_NAME: ${{ secrets.REPO_NAME || 'Library' }}
+        run: python Update_all_tracker_to_github_no_test.py
+      
+      - name: Upload log artifact
+        if: always()  # 即使失败也上传日志
+        uses: actions/upload-artifact@v4
+        with:
+          name: tracker-update-log
+          path: tracker_update.log
+          retention-days: 7
