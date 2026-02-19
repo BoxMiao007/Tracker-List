@@ -1,4 +1,4 @@
 http://www.wareztorrent.com:80/announce
-http://www.wareztorrent.com/announce
 https://tr.nyacat.pw:443/announce
+http://tr.nyacat.pw:80/announce
 https://tracker.bt4g.com:443/announce
