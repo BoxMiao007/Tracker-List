@@ -38,6 +38,7 @@ http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
 http://tr.nyacat.pw:80/announce
+http://tracker.23794.top:6969/announce
 http://tracker.alaskantf.com:6969/announce
 http://tracker.beeimg.com:6969/announce
 http://tracker.bittor.pw:1337/announce
@@ -99,6 +100,7 @@ https://tr.abir.ga/announce
 https://tr.abir.ga:443/announce
 https://tr.burnabyhighstar.com/announce
 https://tr.nyacat.pw:443/announce
+https://tr.zukizuki.org:443/announce
 https://tracker.bt4g.com:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info/announce
@@ -122,6 +124,7 @@ https://tracker1.520.jp/announce
 https://tracker1.520.jp:443/announce
 https://trackme.theom.nz:443/announce
 udp://52.58.128.163:6969/announce
+udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://[2a03:7220:8083:cd00::1]:451/announce
 udp://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 udp://admin.52ywp.com:6969/announce
@@ -131,6 +134,7 @@ udp://bt.rer.lol:6969/announce
 udp://d40969.acod.regrucolo.ru:6969/announce
 udp://evan.im:6969/announce
 udp://exodus.desync.com:6969/announce
+udp://explodie.org:6969/announce
 udp://extracker.dahrkael.net:6969/announce
 udp://ipv4announce.sktorrent.eu:6969/announce
 udp://leet-tracker.moe:1337/announce
