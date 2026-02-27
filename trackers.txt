@@ -152,6 +152,7 @@ udp://node02.madtia.cc:42069/announce
 udp://node02.torrentonline.cc:42069/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
 udp://open.demonii.com:1337/announce
+udp://open.demonoid.ch:6969/announce
 udp://open.dstud.io:6969/announce
 udp://open.stealth.si:80/announce
 udp://opentor.org:2710/announce
