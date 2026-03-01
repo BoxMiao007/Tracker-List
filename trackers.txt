@@ -103,6 +103,7 @@ https://tr.abir.ga:443/announce
 https://tr.burnabyhighstar.com/announce
 https://tr.nyacat.pw:443/announce
 https://tr.zukizuki.org:443/announce
+https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
 https://tracker.bt4g.com:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info/announce
