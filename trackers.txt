@@ -162,6 +162,7 @@ udp://p4p.arenabg.com:1337/announce
 udp://rekcart.duckdns.org:15480/announce
 udp://retracker.hotplug.ru:2710/announce
 udp://retracker.lanta.me:2710/announce
+udp://speedtest.iperson.xyz:6969/announce
 udp://t.overflow.biz:6969/announce
 udp://torrentclub.online:54123/announce
 udp://torrentvpn.club:6990/announce
