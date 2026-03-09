@@ -13,6 +13,7 @@ http://bt.poletracker.org:2710/announce
 http://bt1.xxxxbt.cc:6969/announce
 http://buny.uk:6969/announce
 http://bvarf.tracker.sh:2086/announce
+http://cn.pcfreetime.com:6969/announce
 http://extracker.dahrkael.net:6969/announce
 http://ftp.pet:6969/announce
 http://home.yxgz.club:6969/announce
@@ -26,6 +27,7 @@ http://open.acgtracker.com:1096/announce
 http://open.trackerlist.xyz:80/announce
 http://retracker.hotplug.ru:2710/announce
 http://retracker.spark-rostov.ru:80/announce
+http://s1124554.ha012.t.mydomain.zone:80/announce
 http://seeders-paradise.org:80/announce
 http://servandroidkino.ru:80/announce
 http://share.hkg-fansub.info:80/announce.php
