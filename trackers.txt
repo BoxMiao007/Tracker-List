@@ -220,6 +220,7 @@ udp://tracker3.itzmx.com:6961/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://uabits.today:6990/announce
 udp://udp.tracker.projectk.org:23333/announce
+udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
 udp://wepzone.net:6969/announce
 wss://tracker.openwebtorrent.com:443/announce
