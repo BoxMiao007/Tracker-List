@@ -28,6 +28,9 @@ http://open.trackerlist.xyz:80/announce
 http://retracker.hotplug.ru:2710/announce
 http://retracker.spark-rostov.ru:80/announce
 http://s1124554.ha012.t.mydomain.zone:80/announce
+http://s1130638.ha016.t.mydomain.zone:80/announce
+http://s1130639.ha009.t.mydomain.zone:80/announce
+http://s1130642.ha014.t.mydomain.zone:80/announce
 http://seeders-paradise.org:80/announce
 http://servandroidkino.ru:80/announce
 http://share.hkg-fansub.info:80/announce.php
@@ -133,6 +136,7 @@ https://tracker.zhuqiy.com:443/announce
 https://tracker1.520.jp/announce
 https://tracker1.520.jp:443/announce
 https://trackme.theom.nz:443/announce
+https://wsad.run.place:443/announce
 udp://52.58.128.163:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://[2a03:7220:8083:cd00::1]:451/announce
