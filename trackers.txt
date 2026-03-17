@@ -25,6 +25,7 @@ http://lucke.fenesisu.moe:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgtracker.com:1096/announce
 http://open.trackerlist.xyz:80/announce
+http://opentracker.91kf.top:16969/announce
 http://retracker.hotplug.ru:2710/announce
 http://retracker.spark-rostov.ru:80/announce
 http://s1124554.ha012.t.mydomain.zone:80/announce
@@ -98,6 +99,7 @@ http://www.wareztorrent.com:80/announce
 https://004430.xyz:443/announce
 https://1337.abcvg.info:443/announce
 https://cny.fan:443/announce
+https://colibri.parrot.run:443/announce
 https://shahidrazi.online:443/announce
 https://t.213891.xyz:443/announce
 https://torrent.tracker.durukanbal.com:443/announce
@@ -136,6 +138,7 @@ https://tracker.zhuqiy.com:443/announce
 https://tracker1.520.jp/announce
 https://tracker1.520.jp:443/announce
 https://trackme.theom.nz:443/announce
+https://wolf.parrot.run:443/announce
 https://wsad.run.place:443/announce
 udp://52.58.128.163:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
