@@ -15,6 +15,7 @@ http://buny.uk:6969/announce
 http://bvarf.tracker.sh:2086/announce
 http://cn.pcfreetime.com:6969/announce
 http://extracker.dahrkael.net:6969/announce
+http://ftp.pet:2710/announce
 http://ftp.pet:6969/announce
 http://home.yxgz.club:6969/announce
 http://ipv4.rer.lol:2710/announce
@@ -59,6 +60,7 @@ http://tracker.dler.com:6969/announce
 http://tracker.dler.org:6969/announce
 http://tracker.dmcomic.org:2710/announce
 http://tracker.electro-torrent.pl/announce
+http://tracker.exe.in.th:6969/announce
 http://tracker.gbitt.info/announce
 http://tracker.ghostchu-services.top:80/announce
 http://tracker.ipv6tracker.org:80/announce
@@ -81,6 +83,7 @@ http://tracker.wepzone.net:6969/announce
 http://tracker.xiaoduola.xyz:6969/announce
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 http://tracker.zhuqiy.com:80/announce
+http://tracker.zhuqiy.dgj055.icu:80/announce
 http://tracker1.itzmx.com:8080/announce
 http://tracker2.dler.org/announce
 http://tracker2.dler.org:80/announce
@@ -100,6 +103,8 @@ https://004430.xyz:443/announce
 https://1337.abcvg.info:443/announce
 https://cny.fan:443/announce
 https://colibri.parrot.run:443/announce
+https://http1.torrust-tracker-demo.com:443/announce
+https://pybittrack.retiolus.net:443/announce
 https://shahidrazi.online:443/announce
 https://t.213891.xyz:443/announce
 https://torrent.tracker.durukanbal.com:443/announce
@@ -133,6 +138,7 @@ https://tracker.pmman.tech:443/announce
 https://tracker.puvvadi.net:443/announce
 https://tracker.qingwapt.org:443/announce
 https://tracker.tamersunion.org:443/announce
+https://tracker.vectahosting.eu:443/announce
 https://tracker.yggleak.top:443/announce
 https://tracker.zhuqiy.com:443/announce
 https://tracker1.520.jp/announce
@@ -233,4 +239,5 @@ udp://udp.tracker.projectk.org:23333/announce
 udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
 udp://wepzone.net:6969/announce
+udp://www.nartlof.com:6969/announce
 wss://tracker.openwebtorrent.com:443/announce
