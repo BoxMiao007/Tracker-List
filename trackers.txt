@@ -124,6 +124,7 @@ https://tr.zukizuki.org:443/announce
 https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
 https://tracker.7471.top:443/announce
 https://tracker.bt4g.com:443/announce
+https://tracker.cangku.moe:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info/announce
 https://tracker.gbitt.info:443/announce
