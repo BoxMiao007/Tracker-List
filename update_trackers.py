@@ -34,7 +34,6 @@ URLS = [
     "https://raw.githubusercontent.com/BoxMiao007/Tracker-List/main/trackers.txt",
     "https://raw.githubusercontent.com/BoxMiao007/Tracker-List/main/trackers_best.txt",
     "http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt",
-    "https://cf.trackerslist.com/best.txt",
 ]
 
 # 请求配置
