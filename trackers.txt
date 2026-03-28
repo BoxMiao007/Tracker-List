@@ -109,6 +109,7 @@ https://1337.abcvg.info:443/announce
 https://cny.fan:443/announce
 https://colibri.parrot.run:443/announce
 https://http1.torrust-tracker-demo.com:443/announce
+https://opentracker.8880085.xyz:443/announce
 https://pybittrack.retiolus.net:443/announce
 https://shahidrazi.online:443/announce
 https://t.213891.xyz:443/announce
@@ -188,6 +189,7 @@ udp://p4p.arenabg.com:1337/announce
 udp://rekcart.duckdns.org:15480/announce
 udp://retracker.hotplug.ru:2710/announce
 udp://retracker.lanta.me:2710/announce
+udp://seedpeer.net:6969/announce
 udp://speedtest.iperson.xyz:6969/announce
 udp://t.overflow.biz:6969/announce
 udp://torrentclub.online:54123/announce
