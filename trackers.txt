@@ -165,6 +165,7 @@ udp://admin.52ywp.com:6969/announce
 udp://bandito.byterunner.io:6969/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 udp://bt.rer.lol:6969/announce
+udp://coeus.torrentonline.cc:42069/announce
 udp://d40969.acod.regrucolo.ru:6969/announce
 udp://evan.im:6969/announce
 udp://exodus.desync.com:6969/announce
