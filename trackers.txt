@@ -262,6 +262,7 @@ udp://uabits.today:6990/announce
 udp://udp.tracker.projectk.org:23333/announce
 udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
+udp://vito-tracker.duckdns.org:6969/announce
 udp://wepzone.net:6969/announce
 udp://www.nartlof.com:6969/announce
 udp://yuptracker-eu.gaijinent.com:27022/announce
