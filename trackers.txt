@@ -193,6 +193,7 @@ udp://obey.torrentonline.cc:42069/announce
 udp://open.demonii.com:1337/announce
 udp://open.demonoid.ch:6969/announce
 udp://open.dstud.io:6969/announce
+udp://open.ftorrent.com:443/announce
 udp://open.stealth.si:80/announce
 udp://opentor.org:2710/announce
 udp://opentracker.io:6969/announce
