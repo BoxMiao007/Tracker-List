@@ -5,6 +5,7 @@ http://1337.abcvg.info/announce
 http://1337.abcvg.info:80/announce
 http://207.241.226.111:6969/announce
 http://207.241.231.226:6969/announce
+http://64.226.122.118:6969/announce
 http://66691337.xyz:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
@@ -204,6 +205,7 @@ udp://retracker.lanta.me:2710/announce
 udp://seedpeer.net:6969/announce
 udp://speedtest.iperson.xyz:6969/announce
 udp://t.overflow.biz:6969/announce
+udp://torrent.bowed.net:8081/announce
 udp://torrentclub.online:54123/announce
 udp://torrentvpn.club:6990/announce
 udp://tr4ck3r.duckdns.org:6969/announce
