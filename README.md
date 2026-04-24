@@ -1,4 +1,4 @@
-[![Last update](https://img.shields.io/badge/Last%20update-2026/04/23-%232ea043?style=flat-square&logo=github)](#)
+[![Last update](https://img.shields.io/badge/Last%20update-2026/04/24-%232ea043?style=flat-square&logo=github)](#)
 [![GitHub](https://img.shields.io/github/license/BoxMiao007/Tracker-List?style=flat-square&color=blue&logo=github)](https://raw.githubusercontent.com/BoxMiao007/Tracker-List/main/LICENSE)
     
 # Tracker-List
