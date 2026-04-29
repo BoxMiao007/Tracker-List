@@ -102,6 +102,7 @@ http://tracker3.itzmx.com:6961/announce
 http://tracker4.itzmx.com:2710/announce
 http://tracker810.xyz:11450/announce
 http://trackme.theom.nz:80/announce
+http://vito-tracker.space:6969/announce
 http://vps-c1adea63.vps.ovh.net:6969/announce
 http://wepzone.net:6969/announce
 http://www.all4nothin.net:80/announce.php
@@ -268,6 +269,7 @@ udp://udp.tracker.projectk.org:23333/announce
 udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
 udp://vito-tracker.duckdns.org:6969/announce
+udp://vito-tracker.space:2095/announce
 udp://wepzone.net:6969/announce
 udp://whybother.torrentonline.cc:42069/announce
 udp://www.nartlof.com:6969/announce
