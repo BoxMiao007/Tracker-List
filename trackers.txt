@@ -208,6 +208,7 @@ udp://speedtest.iperson.xyz:6969/announce
 udp://t.overflow.biz:6969/announce
 udp://torrent.bowed.net:8081/announce
 udp://torrentclub.online:54123/announce
+udp://torrents.tmtime.dev:6969/announce
 udp://torrentvpn.club:6990/announce
 udp://tr4ck3r.duckdns.org:6969/announce
 udp://tracker-de-2.cutie.dating:1337/announce
@@ -270,6 +271,7 @@ udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
 udp://vito-tracker.duckdns.org:6969/announce
 udp://vito-tracker.space:2095/announce
+udp://vito-tracker.space:6969/announce
 udp://wepzone.net:6969/announce
 udp://whybother.torrentonline.cc:42069/announce
 udp://www.nartlof.com:6969/announce
