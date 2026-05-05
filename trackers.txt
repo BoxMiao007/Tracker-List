@@ -143,6 +143,7 @@ https://tracker.ghostchu-services.top:443/announce
 https://tracker.iochimari.moe:443/announce
 https://tracker.iperson.xyz:443/announce
 https://tracker.kuroy.me:443/announce
+https://tracker.lenition.de:443/announce
 https://tracker.lilithraws.cf/announce
 https://tracker.loligirl.cn/announce
 https://tracker.m-team.cc/announce.php
@@ -155,6 +156,7 @@ https://tracker.novy.vip:443/announce
 https://tracker.pmman.tech:443/announce
 https://tracker.puvvadi.net:443/announce
 https://tracker.qingwapt.org:443/announce
+https://tracker.samcze.pl:443/announce
 https://tracker.tamersunion.org:443/announce
 https://tracker.vectahosting.eu:443/announce
 https://tracker.yemekyedim.com:443/announce
