@@ -50,6 +50,7 @@ http://t.overflow.biz:6969/announce
 http://tk.greedland.net/announce
 http://torrent.hificode.in:6969/announce
 http://torrentsmd.com:8080/announce
+http://torrenttracker.nwc.acsalaska.net:6969/announce
 http://tr.cili001.com:8070/announce
 http://tr.highstar.shop:80/announce
 http://tr.kxmp.cf:80/announce
@@ -178,6 +179,7 @@ udp://archive.torrentonline.cc:42069/announce
 udp://bandito.byterunner.io:6969/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 udp://bt.rer.lol:6969/announce
+udp://cerf.cs.umd.edu:8000/announce
 udp://coeus.torrentonline.cc:42069/announce
 udp://d40969.acod.regrucolo.ru:6969/announce
 udp://evan.im:6969/announce
