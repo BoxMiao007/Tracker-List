@@ -1,4 +1,4 @@
+https://colibri.parrot.run:443/announce
 https://tr.nyacat.pw:443/announce
-http://tracker.tritan.gg:8080/announce
 https://tracker.bt4g.com:443/announce
 http://tracker.bt4g.com:2095/announce
