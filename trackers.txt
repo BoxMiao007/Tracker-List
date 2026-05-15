@@ -218,12 +218,14 @@ udp://torrent.bowed.net:8081/announce
 udp://torrentclub.online:54123/announce
 udp://torrents.tmtime.dev:6969/announce
 udp://torrentvpn.club:6990/announce
+udp://tr.btube3.com:2010/announce
 udp://tr4ck3r.duckdns.org:6969/announce
 udp://tracker-de-2.cutie.dating:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.004430.xyz:1337/announce
 udp://tracker.1h.is:1337/announce
 udp://tracker.alaskantf.com:6969/announce
+udp://tracker.auctor.tv:6969/announce
 udp://tracker.bittor.pw:1337/announce
 udp://tracker.bluefrog.pw:2710/announce
 udp://tracker.breizh.pm:6969/announce
