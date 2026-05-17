@@ -146,6 +146,7 @@ https://tracker.ghostchu-services.top:443/announce
 https://tracker.iochimari.moe:443/announce
 https://tracker.iperson.xyz:443/announce
 https://tracker.kuroy.me:443/announce
+https://tracker.leechshield.link:443/announce
 https://tracker.lenition.de:443/announce
 https://tracker.lilithraws.cf/announce
 https://tracker.loligirl.cn/announce
@@ -282,6 +283,7 @@ udp://udp.trackarr.org:6969/announce
 udp://udp.tracker.projectk.org:23333/announce
 udp://udp1.torrust-tracker-demo.com:6969/announce
 udp://utracker.ghostchu-services.top:6969/announce
+udp://v6.vito-tracker.space:6969/announce
 udp://vito-tracker.duckdns.org:6969/announce
 udp://vito-tracker.space:2095/announce
 udp://vito-tracker.space:6969/announce
