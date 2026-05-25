@@ -135,6 +135,7 @@ https://tr.nyacat.pw:443/announce
 https://tr.zukizuki.org:443/announce
 https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
 https://tracker.7471.top:443/announce
+https://tracker.anibt.net:443/announce
 https://tracker.bt4g.com:443/announce
 https://tracker.cangku.moe:443/announce
 https://tracker.cutie.dating:443/announce
@@ -253,6 +254,7 @@ udp://tracker.opentorrent.top:6969/announce
 udp://tracker.opentrackr.org:1337/announce
 udp://tracker.playground.ru:6969/announce
 udp://tracker.plx.im:6969/announce
+udp://tracker.publictracker.xyz:6969/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.riverarmy.xyz:6969/announce
 udp://tracker.sharebro.in:6969/announce
@@ -293,4 +295,5 @@ udp://wepzone.net:6969/announce
 udp://whybother.torrentonline.cc:42069/announce
 udp://www.nartlof.com:6969/announce
 udp://yuptracker-eu.gaijinent.com:27022/announce
+udp://zer0day.ch:1337/announce
 wss://tracker.openwebtorrent.com:443/announce
