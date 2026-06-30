@@ -32,6 +32,7 @@ http://ipv4announce.sktorrent.eu:6969/announce
 http://ipv6.rer.lol:6969/announce
 http://jvavav.com:80/announce
 http://lucke.fenesisu.moe:6969/announce
+http://ns3109441.mypdns.org:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgtracker.com:1096/announce
 http://open.tracker.cl:1337/announce
