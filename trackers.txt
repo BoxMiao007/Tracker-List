@@ -159,6 +159,7 @@ https://tracker.gcrenwp.top:443/announce
 https://tracker.ghostchu-services.top:443/announce
 https://tracker.iochimari.moe:443/announce
 https://tracker.iperson.xyz:443/announce
+https://tracker.isbigdick.cc.cd:443/announce
 https://tracker.kuroy.me:443/announce
 https://tracker.leechshield.link:443/announce
 https://tracker.lenition.de:443/announce
