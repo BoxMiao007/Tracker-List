@@ -150,6 +150,7 @@ https://tracker.7471.top:443/announce
 https://tracker.anibt.net:443/announce
 https://tracker.bigbewbs.online:443/announce
 https://tracker.bt4g.com:443/announce
+https://tracker.bug38.com:443/announce
 https://tracker.cangku.moe:443/announce
 https://tracker.cutie.dating:443/announce
 https://tracker.foreverpirates.co:443/announce
@@ -322,5 +323,8 @@ udp://wepzone.net:6969/announce
 udp://whybother.torrentonline.cc:42069/announce
 udp://www.nartlof.com:6969/announce
 udp://yuptracker-eu.gaijinent.com:27022/announce
+udp://yuptracker-sa.gaijinent.com:27022/announce
+udp://yuptracker-us.gaijinent.com:27022/announce
+udp://yuptracker.gaijinent.com:27022/announce
 udp://zer0day.ch:1337/announce
 wss://tracker.openwebtorrent.com:443/announce
