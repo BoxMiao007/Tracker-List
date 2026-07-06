@@ -38,6 +38,7 @@ http://open.acgtracker.com:1096/announce
 http://open.tracker.cl:1337/announce
 http://open.trackerlist.xyz:80/announce
 http://opentracker.91kf.top:16969/announce
+http://play.aimisayo.com:6969/announce
 http://retracker.hotplug.ru:2710/announce
 http://retracker.spark-rostov.ru:80/announce
 http://retracker01-msk-virt.corbina.net/announce
@@ -274,6 +275,7 @@ udp://tracker.huadongblower.xyz:8080/announce
 udp://tracker.ilibr.org:6969/announce
 udp://tracker.iperson.xyz:6969/announce
 udp://tracker.ixuexi.click:6969/announce
+udp://tracker.nexusstream.eu:6969/announce
 udp://tracker.nyaa.vc:6969/announce
 udp://tracker.opentorrent.top:6969/announce
 udp://tracker.opentrackr.com:6969/announce
