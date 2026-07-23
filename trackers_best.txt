@@ -1,4 +1,4 @@
 http://tracker.privateseedbox.xyz:2710/announce
 https://tr.nyacat.pw:443/announce
-http://tr.nyacat.pw:80/announce
 https://tracker.bt4g.com:443/announce
+http://tr.nyacat.pw:80/announce
