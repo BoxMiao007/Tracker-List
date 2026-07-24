@@ -137,6 +137,7 @@ https://1337.abcvg.info:443/announce
 https://banananetwork.qzz.io:443/announce
 https://cny.fan:443/announce
 https://colibri.parrot.run:443/announce
+https://edgev.duckdns.org:443/announce
 https://ht.therarbg.to:443/announce
 https://http1.torrust-tracker-demo.com:443/announce
 https://open.ftorrent.com:443/announce
