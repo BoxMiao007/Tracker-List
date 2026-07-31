@@ -217,6 +217,7 @@ udp://coeus.torrentonline.cc:42069/announce
 udp://concen.org:6969/announce
 udp://d40969.acod.regrucolo.ru:6969/announce
 udp://ds32244.seedhost.eu:6969/announce
+udp://edgev.duckdns.org:6969/announce
 udp://evan.im:6969/announce
 udp://exodus.desync.com:6969/announce
 udp://explodie.org:6969/announce
