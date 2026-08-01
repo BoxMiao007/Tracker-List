@@ -274,6 +274,7 @@ udp://tracker.bittor.pw:1337/announce
 udp://tracker.bluefrog.pw:2710/announce
 udp://tracker.breizh.pm:6969/announce
 udp://tracker.cloudbase.store:1333/announce
+udp://tracker.cn.nyaa.net:6969/announce
 udp://tracker.corpscorp.online:80/announce
 udp://tracker.cubonegro.org:80/announce
 udp://tracker.darkness.services:6969/announce
