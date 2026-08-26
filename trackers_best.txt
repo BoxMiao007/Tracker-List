@@ -1,4 +1,4 @@
 http://tracker.privateseedbox.xyz:2710/announce
 https://tr.nyacat.pw:443/announce
-http://bt.okmp3.ru:2710/announce
 http://tr.nyacat.pw:80/announce
+http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
