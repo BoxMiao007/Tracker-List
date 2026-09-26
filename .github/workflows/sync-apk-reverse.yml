@@ -1,0 +1,97 @@
+# 把 BoxMiao007/apk-reverse 的 main 快进到 newliver666/apk-reverse 的 main。
+#
+# 放在本仓库而不是 apk-reverse 里：schedule 只读取默认分支上的 workflow。
+# 同步文件一旦提交进 fork 的 main，这段历史上游没有，之后的上游提交就再也无法快进。
+# 本仓库不是 fork，定时任务从这里推送到 apk-reverse，fork 的提交历史保持不动。
+#
+# 只做快进。fork 一旦有自己的提交，或两边已分叉，任务失败并停住：
+# 不 merge、不开 PR、不 force push。
+#
+# 推送不用 GITHUB_TOKEN。它只能写本仓库，也不能创建或更新 .github/workflows 下的文件；
+# 上游一旦改了 workflow，用它推送会被拒绝。
+# 需要一个 fine-grained PAT，存为本仓库 secret APK_REVERSE_SYNC_TOKEN：
+#   * 只授权 BoxMiao007/apk-reverse
+#   * Repository permissions: Contents = Read and write
+#   * 过期时间自行设定；过期后本任务会以认证失败停住
+name: Sync apk-reverse
+
+on:
+  schedule:
+    # 每天北京时间 08:17。分钟避开整点，减少和大量定时任务挤在一起。
+    # schedule 是尽力调度，实际运行可能晚几十分钟。
+    - cron: "17 8 * * *"
+      timezone: Asia/Shanghai
+  workflow_dispatch:
+
+# 不取消正在跑的那次：快进推送要跑完，取消可能停在推送中途。
+concurrency:
+  group: sync-apk-reverse
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    env:
+      UPSTREAM: https://github.com/newliver666/apk-reverse.git
+      FORK_REPO: BoxMiao007/apk-reverse
+      BRANCH: main
+    steps:
+      - name: Fast-forward fork main to upstream
+        env:
+          SYNC_TOKEN: ${{ secrets.APK_REVERSE_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${SYNC_TOKEN}" ]; then
+            echo "缺少 secret APK_REVERSE_SYNC_TOKEN，无法推送到 ${FORK_REPO}。" >&2
+            exit 1
+          fi
+
+          # 不把 token 写进 remote URL，避免出现在进程列表和错误输出里。
+          askpass="$(mktemp)"
+          chmod 700 "${askpass}"
+          # fine-grained PAT 的用户名是 token 所属账号，密码是 token 本身。
+          printf '%s\n' '#!/bin/sh' 'case "$1" in' '  *Username*) printf "%s\n" "BoxMiao007" ;;' '  *Password*) printf "%s\n" "$SYNC_TOKEN" ;;' 'esac' > "${askpass}"
+          trap 'rm -f "${askpass}"' EXIT
+          export GIT_ASKPASS="${askpass}"
+          export GIT_TERMINAL_PROMPT=0
+
+          git init --quiet sync-workdir
+          cd sync-workdir
+          # 空 helper 清掉 runner 上可能已有的凭证助手，避免它抢走 GIT_ASKPASS。
+          git config credential.helper ""
+          git remote add upstream "${UPSTREAM}"
+          git remote add fork "https://github.com/${FORK_REPO}.git"
+
+          git fetch --quiet upstream "${BRANCH}"
+          git fetch --quiet fork "${BRANCH}"
+
+          upstream_sha="$(git rev-parse "upstream/${BRANCH}")"
+          fork_sha="$(git rev-parse "fork/${BRANCH}")"
+          echo "upstream ${BRANCH}: ${upstream_sha}"
+          echo "fork     ${BRANCH}: ${fork_sha}"
+
+          if [ "${upstream_sha}" = "${fork_sha}" ]; then
+            echo "已与上游一致，无需推送。"
+            exit 0
+          fi
+
+          # fork 必须是上游的祖先，推送才是快进。
+          # 两边分叉，或 fork 比上游更新，都停在这里。
+          if ! git merge-base --is-ancestor "fork/${BRANCH}" "upstream/${BRANCH}"; then
+            echo "不能快进：${FORK_REPO} 的 ${BRANCH} 不是上游的祖先。" >&2
+            echo "未推送。请先处理分叉，再重新运行。" >&2
+            git log --oneline --left-right "fork/${BRANCH}...upstream/${BRANCH}" >&2 || true
+            exit 1
+          fi
+
+          behind="$(git rev-list --count "fork/${BRANCH}..upstream/${BRANCH}")"
+          echo "落后上游 ${behind} 个提交，开始快进推送。"
+          # 祖先检查已经排除了非快进。不用 git push --ff-only：
+          # runner 上的 git 2.53 还不支持这个选项。
+          # 期望值写死为刚读到的 fork SHA，推送期间 ref 被别人移动时会被拒绝。
+          git push --force-with-lease="refs/heads/${BRANCH}:${fork_sha}" \
+            fork "upstream/${BRANCH}:refs/heads/${BRANCH}"
+          echo "已快进到 ${upstream_sha}。"
