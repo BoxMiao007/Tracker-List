@@ -1,4 +1,4 @@
 https://tr.nyacat.pw:443/announce
+https://wolf.parrot.run:443/announce
 http://tr.nyacat.pw:80/announce
-http://tracker.privateseedbox.xyz:2710/announce
-https://5.tracker.eu.org:443/announce
+https://colibri.parrot.run:443/announce
