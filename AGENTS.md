@@ -93,6 +93,6 @@ gh workflow run sync-rea.yml --repo BoxMiao007/Tracker-List
 - fork 是上游的祖先：快进推送。`--force-with-lease` 的期望值是刚读到的 fork SHA；中间 ref 被移动则拒绝。runner 上的 git 2.53 没有 `git push --ff-only`。
 - 两边已分叉，或 fork 比上游更新：失败退出。fork 的同步分支保持不动。
 
-改这些 workflow 时保持快进。fork 的 `main` 有了自己的提交就让任务失败，由人处理；改成 merge、开 PR 或 force push 都会改掉这条历史。这些 workflow 不删除仓库、分支或提交。上游仓库被删除或改名时，`git fetch` 失败，任务报错退出，fork 留在原地。
+改这些 workflow 时保持快进。fork 的同步分支有了自己的提交就让任务失败，由人处理；改成 merge、开 PR 或 force push 都会改掉这条历史。这些 workflow 不删除仓库、分支或提交。上游仓库被删除或改名时，`git fetch` 失败，任务报错退出，fork 留在原地。
 
 新增 fork 同步时照抄上述 workflow，只改 `UPSTREAM`、`FORK_REPO`、`BRANCH`、secret 名和 cron 分钟；同步时间错开，别和现有任务撞同一分钟。
