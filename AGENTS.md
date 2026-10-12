@@ -71,13 +71,13 @@ gh workflow run update-trackers.yml
 
 与上面的 Tracker 列表无关。workflow 放在本仓库，只因为 `schedule` 必须从非 fork 仓库的默认分支读取。
 
-| workflow | fork（被推） | 上游 | 分支 | 北京时间 | secret |
+| workflow | fork（被推） | 上游 | 分支 | n | secret |
 |---|---|---|---|---|---|
-| `sync-apk-reverse.yml` | `BoxMiao007/apk-reverse` | `newliver666/apk-reverse` | `main` | 每天 08:17 | `APK_REVERSE_SYNC_TOKEN` |
-| `sync-rea.yml` | `BoxMiao007/rea` | `morluto/rea` | `main` | 每天 08:31 | `REA_SYNC_TOKEN` |
-| `sync-fadcam.yml` | `BoxMiao007/FadCam` | `anonfaded/FadCam` | `master` | 每天 08:41 | `FADCAM_SYNC_TOKEN` |
+| `sync-apk-reverse.yml` | `BoxMiao007/apk-reverse` | `newliver666/apk-reverse` | `main` | 17 | `APK_REVERSE_SYNC_TOKEN` |
+| `sync-rea.yml` | `BoxMiao007/rea` | `morluto/rea` | `main` | 31 | `REA_SYNC_TOKEN` |
+| `sync-fadcam.yml` | `BoxMiao007/FadCam` | `anonfaded/FadCam` | `master` | 41 | `FADCAM_SYNC_TOKEN` |
 
-`schedule` 是尽力调度，可能晚几十分钟。Actions 页面可手动触发，例如：
+每个都是每小时一次（`n * * * *`，即每小时的第 n 分钟）。`schedule` 是尽力调度，可能晚几十分钟甚至更久；每小时跑一次保证同步至多落后约一小时。Actions 页面可手动触发，例如：
 
 ```bash
 gh workflow run sync-rea.yml --repo BoxMiao007/Tracker-List
