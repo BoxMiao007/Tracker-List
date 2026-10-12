@@ -71,10 +71,11 @@ gh workflow run update-trackers.yml
 
 与上面的 Tracker 列表无关。workflow 放在本仓库，只因为 `schedule` 必须从非 fork 仓库的默认分支读取。
 
-| workflow | fork（被推） | 上游 | 北京时间 | secret |
-|---|---|---|---|---|
-| `sync-apk-reverse.yml` | `BoxMiao007/apk-reverse` | `newliver666/apk-reverse` | 每天 08:17 | `APK_REVERSE_SYNC_TOKEN` |
-| `sync-rea.yml` | `BoxMiao007/rea` | `morluto/rea` | 每天 08:31 | `REA_SYNC_TOKEN` |
+| workflow | fork（被推） | 上游 | 分支 | 北京时间 | secret |
+|---|---|---|---|---|---|
+| `sync-apk-reverse.yml` | `BoxMiao007/apk-reverse` | `newliver666/apk-reverse` | `main` | 每天 08:17 | `APK_REVERSE_SYNC_TOKEN` |
+| `sync-rea.yml` | `BoxMiao007/rea` | `morluto/rea` | `main` | 每天 08:31 | `REA_SYNC_TOKEN` |
+| `sync-fadcam.yml` | `BoxMiao007/FadCam` | `anonfaded/FadCam` | `master` | 每天 08:41 | `FADCAM_SYNC_TOKEN` |
 
 `schedule` 是尽力调度，可能晚几十分钟。Actions 页面可手动触发，例如：
 
@@ -82,15 +83,15 @@ gh workflow run update-trackers.yml
 gh workflow run sync-rea.yml --repo BoxMiao007/Tracker-List
 ```
 
-同步文件不放进 fork。文件一旦提交进 fork 的 `main`，这段历史上游没有，之后的上游提交就无法快进。
+同步文件不放进 fork。文件一旦提交进 fork 的同步分支，这段历史上游没有，之后的上游提交就无法快进。
 
 推送用本仓库 secret（见上表）：fine-grained PAT，只授权对应 fork 仓库，Contents 为 Read and write。不用 `GITHUB_TOKEN`：它只能写本仓库，也不能更新 `.github/workflows/` 下的文件。token 过期后任务以认证失败停住。
 
 判定：
 
-- 两边 `main` 的 SHA 相同：结束，不推送。
+- 两边上表分支的 SHA 相同：结束，不推送。
 - fork 是上游的祖先：快进推送。`--force-with-lease` 的期望值是刚读到的 fork SHA；中间 ref 被移动则拒绝。runner 上的 git 2.53 没有 `git push --ff-only`。
-- 两边已分叉，或 fork 比上游更新：失败退出。fork 的 `main` 保持不动。
+- 两边已分叉，或 fork 比上游更新：失败退出。fork 的同步分支保持不动。
 
 改这些 workflow 时保持快进。fork 的 `main` 有了自己的提交就让任务失败，由人处理；改成 merge、开 PR 或 force push 都会改掉这条历史。这些 workflow 不删除仓库、分支或提交。上游仓库被删除或改名时，`git fetch` 失败，任务报错退出，fork 留在原地。
 
