@@ -73,14 +73,12 @@ gh workflow run update-trackers.yml
 
 | workflow | fork（被推） | 上游 | 分支 | n | secret |
 |---|---|---|---|---|---|
-| `sync-apk-reverse.yml` | `BoxMiao007/apk-reverse` | `newliver666/apk-reverse` | `main` | 17 | `APK_REVERSE_SYNC_TOKEN` |
-| `sync-rea.yml` | `BoxMiao007/rea` | `morluto/rea` | `main` | 31 | `REA_SYNC_TOKEN` |
 | `sync-fadcam.yml` | `BoxMiao007/FadCam` | `anonfaded/FadCam` | `master` | 41 | `FADCAM_SYNC_TOKEN` |
 
 每个都是每小时一次（`n * * * *`，即每小时的第 n 分钟）。`schedule` 是尽力调度，可能晚几十分钟甚至更久；每小时跑一次保证同步至多落后约一小时。Actions 页面可手动触发，例如：
 
 ```bash
-gh workflow run sync-rea.yml --repo BoxMiao007/Tracker-List
+gh workflow run sync-fadcam.yml --repo BoxMiao007/Tracker-List
 ```
 
 同步文件不放进 fork。文件一旦提交进 fork 的同步分支，这段历史上游没有，之后的上游提交就无法快进。
