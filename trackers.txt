@@ -329,6 +329,7 @@ udp://tracker.plx.im:6969/announce
 udp://tracker.publictracker.xyz:6969/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.riverarmy.xyz:6969/announce
+udp://tracker.sela.st:6969/announce
 udp://tracker.sharebro.in:6969/announce
 udp://tracker.skynetcloud.site:6969/announce
 udp://tracker.skyts.net:6969/announce
