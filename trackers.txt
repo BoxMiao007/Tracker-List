@@ -261,6 +261,7 @@ udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
 udp://opentracker.io:6969/announce
 udp://opentracker.lain.moscow:6969/announce
+udp://opentracker2.lain.moscow:6969/announce
 udp://p4p.arenabg.com:1337/announce
 udp://rekcart.duckdns.org:15480/announce
 udp://retracker.hotplug.ru:2710/announce
@@ -302,6 +303,7 @@ udp://tracker.dler.com:6969/announce
 udp://tracker.dler.org:6969/announce
 udp://tracker.dorcus.digital:1337/announce
 udp://tracker.ducks.party:1984/announce
+udp://tracker.evergarden.uk:1914/announce
 udp://tracker.farted.net:6969/announce
 udp://tracker.filemail.com:6969/announce
 udp://tracker.flatuslifir.is:6969/announce
