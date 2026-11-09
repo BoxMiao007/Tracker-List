@@ -171,6 +171,7 @@ https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
 https://tracker.7471.top:443/announce
 https://tracker.adgk.net:443/announce
 https://tracker.anibt.net:443/announce
+https://tracker.augrains.com:443/announce
 https://tracker.bigbewbs.online:443/announce
 https://tracker.bt4g.com:443/announce
 https://tracker.bug38.com:443/announce
