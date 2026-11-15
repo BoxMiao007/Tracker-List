@@ -276,6 +276,7 @@ udp://retracker01-msk-virt.corbina.net:80/announce
 udp://seedpeer.net:6969/announce
 udp://shahidrazi.online:1984/announce
 udp://speedtest.iperson.xyz:6969/announce
+udp://stairs.lat:6969/announce
 udp://t.overflow.biz:6969/announce
 udp://torrent.bowed.net:8081/announce
 udp://torrent.tracker.durukanbal.com:6969/announce
