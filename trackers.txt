@@ -85,6 +85,7 @@ http://tracker.dhitechnical.com:6969/announce
 http://tracker.dler.com:6969/announce
 http://tracker.dler.org:6969/announce
 http://tracker.dmcomic.org:2710/announce
+http://tracker.edkj.club:6969/announce
 http://tracker.electro-torrent.pl/announce
 http://tracker.exe.in.th:6969/announce
 http://tracker.gbitt.info/announce
@@ -158,6 +159,7 @@ https://php-bobcat.wasmer.app:443/announce
 https://pybittrack.retiolus.net:443/announce
 https://shahidrazi.online:443/announce
 https://t.213891.xyz:443/announce
+https://t1.hloli.org:443/announce
 https://torrent.tracker.durukanbal.com:443/announce
 https://torrents.tmtime.dev:443/announce
 https://tp.m-team.cc:443/announce.php
@@ -169,8 +171,10 @@ https://tr.burnabyhighstar.com/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tr.nyacat.pw:443/announce
 https://tr.zukizuki.org:443/announce
+https://track3r.site:443/announce
 https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
 https://tracker.7471.top:443/announce
+https://tracker.aburaya.live:443/announce
 https://tracker.adgk.net:443/announce
 https://tracker.anibt.net:443/announce
 https://tracker.augrains.com:443/announce
